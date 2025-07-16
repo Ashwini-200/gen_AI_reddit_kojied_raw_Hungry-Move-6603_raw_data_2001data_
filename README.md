@@ -22,5 +22,4 @@ This repository contains a simple Python script that:
 1️⃣ **Clone this repository**
 
 ```bash
-git clone https://github.com/<your-username>/user-persona-extractor.git
-cd user-persona-extractor
+https://github.com/Ashwini-200/gen_AI_reddit_kojied_raw_Hungry-Move-6603_raw_data_2001data_
