@@ -1,34 +1,26 @@
-# reddit-llm-user-data
+# Reddit User Persona Extractor
 
-This repository contains the **raw scraped Reddit data** (posts and comments) for the users **kojied** and **Hungry-Move-6603**.  
-The data was collected as part of an AI/LLM internship assignment to build detailed user personas using Large Language Models (LLMs).
-
----
-
-## 📌 Contents
-
-- `kojied_raw.txt` — All posts and comments scraped from the Reddit user **kojied**
-- `Hungry-Move-6603_raw.txt` — All posts and comments scraped from the Reddit user **Hungry-Move-6603**
+This repository contains a simple Python script that:
+- Takes a Reddit username as input.
+- Scrapes the user’s posts and comments.
+- Saves the raw data to a `.txt` file.
+- (Optional) Uses an LLM to generate a user persona based on the scraped data.
 
 ---
 
-## ⚙️ Purpose
+## 📌 Requirements
 
-These raw text files are the input for the **Reddit Persona Generator** project, where an LLM analyzes the data and produces a user persona with citations for each insight.
-
----
-
-## 📂 Usage
-
-This dataset is intended for:
-- Testing the persona generation script
-- Verifying the scraping process
-- Providing reproducible input data for the BeyondChats internship assignment
-
- License
-
-This dataset is created for **educational and demonstration purposes only** as part of the BeyondChats internship assignment.  
-Do not reuse for any commercial purpose without permission.
+- Python 3.x
+- `praw` for Reddit API
+- `dotenv` for environment variables
+- OpenAI or any LLM (optional for persona generation)
 
 ---
- Ashwini K B
+
+## 📌 Setup Instructions
+
+1️⃣ **Clone this repository**
+
+```bash
+git clone https://github.com/<your-username>/user-persona-extractor.git
+cd user-persona-extractor
